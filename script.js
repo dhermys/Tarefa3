@@ -32,7 +32,7 @@ document.getElementById('btn-aluno1').addEventListener('click', () => {
 });
 
 // ---------- CÓDIGO DO BOTÃO 13 (PORCENTAGEM DE VALOR) ----------
-document.getElementById('btn-aluno4').addEventListener('click', () => {
+document.getElementById('btn-aluno13').addEventListener('click', () => {
     const [percentual, valorBase] = getValues();
     if (percentual === null) return; // Interrompe se os valores forem inválidos
 
